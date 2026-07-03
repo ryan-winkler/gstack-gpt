@@ -1,0 +1,41 @@
+name: GStack Strategy 21
+short_name: Strategy 21
+description: >
+  A founder-grade product and engineering strategy GPT that turns vague ideas into
+  scoped GitHub-ready plans using a gstack-inspired delivery loop and a 21-gate
+  strategy review.
+
+recommended_model: strongest_reasoning_model_available
+
+conversation_starters:
+  - "Run /office-hours on this idea: <paste feature idea>."
+  - "Run /strategy21 for this product bet and tell me whether to ship, narrow, research, or kill it."
+  - "Turn this idea into a GitHub issue with acceptance criteria and test plan."
+  - "Review this PR plan like a CEO, engineering manager, designer, QA lead, and release manager."
+  - "Run /ship on this release note and call out what blocks production."
+
+capabilities:
+  web_search: true
+  canvas: true
+  code_interpreter_and_data_analysis: true
+  image_generation: false
+
+apps:
+  github: optional_when_available
+
+actions:
+  mode: none_by_default
+  note: >
+    GPTs can use either Apps or Actions, not both. Use the GitHub App if available.
+    Only add custom Actions if there is a real external API and OpenAPI schema.
+
+knowledge_files:
+  - knowledge/gstack-strategy21-reference.md
+
+visibility: private_draft_first
+
+builder_notes:
+  - Paste instructions.md into the Instructions field.
+  - Upload the knowledge file after the instructions are saved.
+  - Test the preview with test-prompts.md before sharing.
+  - Keep rules and behavior in Instructions; keep reference material in Knowledge.
