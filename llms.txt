@@ -1,0 +1,27 @@
+# GStack GPT
+
+GStack GPT is a custom GPT build kit for GStack Strategy 21.
+
+It helps founders, PMs, operators, and engineering leaders turn loose product and engineering ideas into scoped strategy work, GitHub issue bodies, decision memos, review checklists, release gates, and roadmap choices.
+
+## Primary Links
+
+- Repository: https://github.com/ryan-winkler/gstack-gpt
+- GStack: https://github.com/garrytan/gstack
+- GStack site: https://gstack.lol/
+- Strategy skills fork: https://github.com/ryan-winkler/strategy-skills-for-claude
+- Strategy skills upstream: https://github.com/aapersh/strategy-skills-for-claude
+- Ryan Winkler public context: https://github.com/ryan-winkler/ryanwinkler
+
+## Key Files
+
+- README.md: project overview and source links.
+- builder-form.md: GPT Builder Configure values.
+- instructions.md: GPT instruction payload.
+- knowledge/strategy-21-reference.md: GPT knowledge reference.
+- references/strategy-skills-for-claude/: imported strategy skill reference.
+- test-prompts.md: preview tests for GPT behavior.
+
+## Topics
+
+custom-gpt, gpt-builder, strategy21, product-strategy, engineering-planning, github-workflows, decision-memos, claude-skills, prompt-engineering, release-gates
