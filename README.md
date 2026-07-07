@@ -1,43 +1,54 @@
-# Mintlify Starter Kit
+# GStack GPT
 
-Use the starter kit to get your docs deployed and ready to customize.
+Custom GPT build kit for GStack Strategy 21: a product and engineering operating partner that turns vague ideas into scoped, testable, GitHub-ready work.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+Repository name: `gstack-gpt`
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+## Start here
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+Use the ChatGPT GPT Builder **Configure** form. Do not paste YAML or this README into the Instructions field.
 
-## Development
+1. Open the GPT editor.
+2. Fill the fields from `builder-form.md`.
+3. Paste only `instructions.md` into **Instructions**.
+4. Upload `knowledge/strategy-21-reference.md` under **Knowledge**.
+5. Turn on the recommended capabilities from `builder-form.md`.
+6. Test with `test-prompts.md` in Preview.
+7. Create or Update the GPT.
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+## Files
 
-```
-npm i -g mint
-```
+| File | Use |
+|---|---|
+| `builder-form.md` | Field-by-field GPT Builder values |
+| `instructions.md` | Copy this into the GPT **Instructions** field |
+| `knowledge/strategy-21-reference.md` | Upload this as GPT **Knowledge** |
+| `test-prompts.md` | Preview prompts and expected behaviors |
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+## What this GPT is for
 
-```
-mint dev
-```
+GStack Strategy 21 helps a founder, PM, or builder convert fuzzy product and engineering ideas into useful work artifacts:
 
-View your local preview at `http://localhost:3000`.
+- product bets
+- sharper user jobs
+- scoped build briefs
+- GitHub issue bodies
+- PR review checklists
+- release gates
+- reusable decision notes
+- retro follow-ups
 
-## Publishing changes
+It is intentionally biased toward small, reversible, evidence-backed changes. It should challenge vague strategy, narrow ocean-sized work, preserve the language of the product area, and leave behind reusable artifacts that get better after every launch.
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+## What this repo is not
 
-## Need help?
+This is not a documentation starter, an app runtime, or a custom Actions server.
 
-### Troubleshooting
+Actions are left off by default. Use the GitHub App capability if your GPT workspace exposes it. Add custom Actions only when you have a real external API and an OpenAPI schema.
 
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
+## Source links
 
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+- GStack: https://gstack.lol/
+- GStack repository: https://github.com/garrytan/gstack
+- GPT Builder help: https://help.openai.com/en/articles/8554397-creating-and-editing-gpts
+- GPT editor entry: https://chatgpt.com/gpts
